@@ -1,0 +1,46 @@
+Level 9
+
+Time to hone your skills and apply all of the abilities that you have learned.
+
+Tip: Watch your back.
+
+ -----------
+|>Ca  @ S wC|
+ -----------
+
+  > = Stairs
+  @ = Bob (20 HP)
+  C = Captive (1 HP)
+  a = Archer (7 HP)
+  S = Thick Sludge (24 HP)
+  w = Wizard (3 HP)
+
+
+Available Abilities:
+
+  warrior.shoot!
+    Shoot your bow & arrow in given direction (forward by default).
+
+  warrior.feel
+    Returns a Space for the given direction (forward by default).
+
+  warrior.walk!
+    Move in given direction (forward by default).
+
+  warrior.health
+    Returns an integer representing your health.
+
+  warrior.rescue!
+    Rescue a captive from his chains (earning 20 points) in given direction (forward by default).
+
+  warrior.attack!
+    Attack the unit in given direction (forward by default).
+
+  warrior.look
+    Returns an array of Spaces in given direction (forward by default).
+
+  warrior.rest!
+    Gain 10% of max health back, but do nothing more.
+
+  warrior.pivot!
+    Rotate :left, :right or :backward (default)
